@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "inquirer": "^9.3.3"
+  },
+  "name": "readmegenerator2",
+  "description": "[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Readmegenerator2"
+  },
+  "keywords": [
+    "Readme",
+    "generator"
+  ],
+  "author": "CrackerJuice",
+  "license": "MIT"
+}
