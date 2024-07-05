@@ -3,7 +3,7 @@
     "inquirer": "^9.3.3"
   },
   "name": "readmegenerator2",
-  "description": "[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)",
+  "description": "Readme generator using node.js",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {},
