@@ -9,7 +9,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !=="none"){//checks if a license was picked, returns an empty string if none was selected
-    return `\n*[license](#license)\n`
+    return `\n[license](#license)\n`
   };
   return '';
 }
@@ -28,20 +28,20 @@ function generateMarkdown(data) {
   return `# ${data.title}
   by${data.name}    
   ##Table of Contents 
-  *[GitHub](#github)
-  *[email](email)
-  *[Project Name](#title)
-  *[Description](#description)
-  *[usage](#usage)
-  *[installation](#installation)
-  *[dependencies](#required)
-  *[license](#license)
-  *[test](#tests)
-  *[contributions](#contribute)
+  [GitHub](#github)
+  [email](email)
+  [Project Name](#title)
+  [Description](#description)
+  [usage](#usage)
+  [installation](#installation)
+  [dependencies](#required)
+  [license](#license)
+  [test](#tests)
+  [contributions](#contribute)
   ##Contact info
-  *Name- ${data.name}
-  *GitHub - ${data.github}
-  *Email - ${data.email}
+  Name- ${data.name}
+  GitHub - ${data.github}
+  Email - ${data.email}
   ## License
   ${renderLicenseBadge(data.license)}
   ## Description 
